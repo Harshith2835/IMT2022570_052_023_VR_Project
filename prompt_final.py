@@ -11,7 +11,7 @@ from google.api_core.exceptions import ResourceExhausted, ServiceUnavailable  # 
 # Configuration variables
 INPUT_FILE = 'cleaned_vqa_metadata_with_images.json'  # Input file with product metadata
 OUTPUT_FILE = 'vqa_training_data.json'  # Output file for VQA training data
-API_KEY = 'AIzaSyAeESsZgmH8em27x974cH3jaIpJzqOHvy4'  # Gemini API key (replace with actual key)
+API_KEY = 'YOUR_API_KEY_HERE'  # Gemini API key (replace with actual key)
 IMAGE_BASE_DIR = "abo-images-small/images/small"  # Directory containing product images
 RETRY_ATTEMPTS = 3  # Number of retry attempts for failed API calls
 DELAY = 3.0  # Delay (seconds) between API calls to avoid rate limiting
