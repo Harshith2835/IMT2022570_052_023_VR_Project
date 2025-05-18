@@ -131,5 +131,4 @@ python inference.py --model blip_lora --input vqa_dataset.csv
 
 - **Dataset Expansion:** Increase to 50,000 QA pairs with more counting and functional questions.
 - **Model Enhancements:** Explore larger models (e.g., BLIP-2 OPT-6.7B) or ensembles.
-- **Advanced Metrics:** Implement Attention-Based Correctness (ABC) for visual grounding.
 - **Hyperparameter Tuning:** Broader LoRA search (e.g., r=64, varying learning rates).
