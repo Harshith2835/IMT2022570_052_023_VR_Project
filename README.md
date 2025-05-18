@@ -88,7 +88,7 @@ cd IMT2022570_052_023_VR_Project
 pip install -r requirements.txt
 ```
 
-3. Set up Gemini API key:
+3. Set up Gemini API key in prompt_final.py:
 ```bash
 export GOOGLE_API_KEY='your-api-key'
 ```
